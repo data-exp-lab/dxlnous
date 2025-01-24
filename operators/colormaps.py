@@ -2,6 +2,7 @@ import bpy
 import cmyt
 import matplotlib.pyplot as plt
 import numpy as np
+from . import orbits
 
 
 class Load_colormapsOperator(bpy.types.Operator):
@@ -9,6 +10,8 @@ class Load_colormapsOperator(bpy.types.Operator):
     bl_label = "load_colormaps"
 
     def execute(self, context):
+        # orbits.orbit_load()
+        orbits.generate_trees()
         vals = np.mgrid[0.0:1.0:256j]
 
         for cmap_name in cmyt._utils.cmyt_cmaps:
