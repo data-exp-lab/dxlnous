@@ -1,3 +1,7 @@
+# This is dxlnous, a collection of Blender operators and panels that
+# enable data viz functions I find useful.
+# Copyright (C) 2025 Matthew J. Turk
+#
 # This program is free software; you can redistribute it and/or modify
 # it under the terms of the GNU General Public License as published by
 # the Free Software Foundation; either version 3 of the License, or
